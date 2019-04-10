@@ -23,4 +23,6 @@ Above error occurs when topics appear different by name, but are of same context
 This also needs to use spacy to find named entities and tag them accordingly
 To find alternative APIs to support the twitter api, by providing personalised and varied content.
 Find a solution to provide user with full tweet rather than the occasional half tweet given. Also, filtering all the noise and unwanted clauses to provide crisp content to the user.
+Perfecting all the modules. Note that functioning still works despite inaccuracies due to certain 'allowances' for each module. Can be improved
+Program should depend lesser on user's cognitive abilities and sufficiency outside the app(i.e, googling to find out other details about the topic).
 '''
