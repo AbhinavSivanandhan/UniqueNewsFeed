@@ -1,0 +1,26 @@
+'''to do:
+write better regex to split hashtag, using word based parsing(matching words) rather than depending on capital letters, to avoid the occasional odd error, | But works well, coz same regex on both sides
+to detect tags lang, translate and add to document(lang support for more langs) 
+avoid writing tags multiple times in document 
+fix maxrequest exceeded error using proxy, and out of index errors | 
+get better way to end program | non func req
+profanity detection , can use corpus and cosine similarity again, or profanity library, under consideration
+        profanityfilter
+        profanity-check library  done
+fix random outputs during every run error | Unidentified
+track code, avoid using same variable for cosine similarity | Done
+using maxent classifier model to train and do sentiment analysis
+Try and catch langdetect exception
+Always have a set of tags in newstagsdone.txt coz otherwise index error occurs, write something after truncating
+Find intersection of location specific tweets
+https://stackoverflow.com/questions/2527892/parsing-a-tweet-to-extract-hashtags-into-an-array-in-python
+Use it to write all hashtags found with tweet into newstagsdone.txt
+precise location detection
+improving regex 
+Keep in mind the Index error which occurs is cosine similarity work on empty document
+Use simple regex to extract words followed by hashtag in tweets, to collect all future topics to be rejected(or added to taglist)
+Above error occurs when topics appear different by name, but are of same context(happens during ipl season when feed is filled with names of cricketers, thereby not giving the user a balanced feed)
+This also needs to use spacy to find named entities and tag them accordingly
+To find alternative APIs to support the twitter api, by providing personalised and varied content.
+Find a solution to provide user with full tweet rather than the occasional half tweet given. Also, filtering all the noise and unwanted clauses to provide crisp content to the user.
+'''
