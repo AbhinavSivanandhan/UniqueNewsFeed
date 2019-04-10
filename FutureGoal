@@ -1,0 +1,2 @@
+The program should understand the context it provides, rephrase it and provide a simpler version of the news, while maintaining reliability.
+Other than all the objectives mentioned in the 'working on' document, the idea is to convert this into a sustainable commercial product. that can bring users to try out the app. It involves many non-functional requirements as well, such as a user-friendly interface, quicker loading time and generating content from the tweets that can match the content provided by contemporary news organisations.
